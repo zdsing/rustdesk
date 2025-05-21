@@ -1289,7 +1289,8 @@ pub fn install_me(options: &str, path: String, silent: bool, debug: bool) -> Res
     if versions.len() > 2 {
         version_build = versions[2];
     }
-    let app_name = crate::get_app_name();
+    //let app_name = crate::get_app_name();
+    let app_name = "远程协助工具";
 
     let tmp_path = std::env::temp_dir().to_string_lossy().to_string();
     let mk_shortcut = write_cmds(
