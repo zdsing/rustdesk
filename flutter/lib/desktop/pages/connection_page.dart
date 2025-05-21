@@ -510,7 +510,8 @@ class _ConnectionPageState extends State<ConnectionPage>
               padding: const EdgeInsets.only(top: 13.0),
               child: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
                 SizedBox(
-                  height: 28.0,
+                  height: 0,
+                  width:0,
                   child: ElevatedButton(
                     onPressed: () {
                       onConnect();
@@ -518,10 +519,10 @@ class _ConnectionPageState extends State<ConnectionPage>
                     child: Text(translate("Connect")),
                   ),
                 ),
-                const SizedBox(width: 8),
+                const SizedBox(width: 0,height:0),
                 Container(
-                  height: 28.0,
-                  width: 28.0,
+                  height: 0,
+                  width: 0,
                   decoration: BoxDecoration(
                     border: Border.all(color: Theme.of(context).dividerColor),
                     borderRadius: BorderRadius.circular(8),

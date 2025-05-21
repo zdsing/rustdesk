@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\flutter\\windows",
+    "\\flutter",
+    "\\flutter\\lib\\desktop",
+    "\\flutter\\lib\\desktop\\pages",
+    "\\flutter\\lib\\web",
     "\\flutter\\windows\\flutter",
-    "\\src",
-    "\\src\\ui"
+    "\\src"
   ],
-  "SelectedNode": "\\src\\ui\\index.tis",
+  "SelectedNode": "\\flutter\\README.md",
   "PreviewInSolutionExplorer": false
 }
