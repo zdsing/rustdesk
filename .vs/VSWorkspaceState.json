@@ -1,13 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\flutter",
+    "\\.github\\workflows",
+    "\\flutter\\lib",
     "\\flutter\\lib\\desktop",
     "\\flutter\\lib\\desktop\\pages",
     "\\flutter\\lib\\web",
     "\\flutter\\windows\\flutter",
     "\\src"
   ],
-  "SelectedNode": "\\flutter\\README.md",
+  "SelectedNode": "\\src\\ui.rs",
   "PreviewInSolutionExplorer": false
 }
